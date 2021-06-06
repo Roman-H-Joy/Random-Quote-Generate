@@ -39,7 +39,7 @@ let quote = document.querySelector(".quote");
 
 let author = document.querySelector(".author");
 
-// addEventListener
+// addEventListener for working Generate button
 
 btn.addEventListener("click", function() {
     let random = Math.floor(Math.random() * quotes.length);
@@ -50,5 +50,5 @@ btn.addEventListener("click", function() {
     //Show name
     author.innerHTML = quotes[random].author;
     
-    //Thanks For Wath ###
+    //Thanks For Watch ###
 })
